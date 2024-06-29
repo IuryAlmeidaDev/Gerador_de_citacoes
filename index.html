@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de Citações Aleatórias</title>
+    <title>Site de Citações</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#citations">Citações</a></li>
+                <li><a href="#bible">Citações Bíblicas</a></li>
+                <li><a href="#other">Outra aba</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div class="container">
-        <div class="quote">
-            <blockquote id="quote-text">Carregando...</blockquote>
-            <cite id="quote-author"></cite>
+        <div id="quote-container">
+            <p id="quote-text">Carregando citação...</p>
+            <p id="quote-author"></p>
         </div>
-        <div class="buttons">
+        <div class="button-container">
             <button id="new-quote">Nova Citação</button>
-            <button id="share-quote">Compartilhar</button>
+            <button id="share-quote">Compartilhar no Twitter</button>
         </div>
     </div>
 
